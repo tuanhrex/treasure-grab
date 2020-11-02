@@ -382,3 +382,46 @@ lineOneFiftySeven.render();
 lineOneFiftyEight.render();
 
 
+// const image = new Image();
+// image.src = 'img/diamond2.jpg';
+// console.log(image);
+// image.onload = () => {
+//     ctx.drawImage(image, 332, 122, 20, 20);
+//     ctx.drawImage(image, 482, 32, 20, 20);
+//     ctx.drawImage(image, 362, 332, 20, 20);
+//     ctx.drawImage(image, 602, 332, 20, 20);
+//     ctx.drawImage(image, 752, 122, 20, 20);
+    
+// }
+
+
+const diamondOne = new Image();
+diamondOne.src = 'img/diamond2.jpg';
+
+const diamondTwo = new Image();
+diamondTwo.src = 'img/diamond2.jpg';
+
+const diamondThree = new Image();
+diamondThree.src = 'img/diamond2.jpg';
+
+const diamondFour = new Image();
+diamondFour.src = 'img/diamond2.jpg';
+
+const diamondFive = new Image();
+diamondFive.src = 'img/diamond2.jpg';
+
+
+const lebron = new Image();
+lebron.src = 'img/lebron.png';
+
+
+document.getElementById('status').addEventListener('click', function() {
+    
+    ctx.drawImage(lebron, 2, 182, 26, 26);
+    ctx.drawImage(diamondOne, 332, 122, 20, 20);
+    ctx.drawImage(diamondTwo, 482, 32, 20, 20);
+    ctx.drawImage(diamondThree, 362, 332, 20, 20);
+    ctx.drawImage(diamondFour, 602, 332, 20, 20);
+    ctx.drawImage(diamondFive, 752, 122, 20, 20);
+    
+})

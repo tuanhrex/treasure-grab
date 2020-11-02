@@ -1,0 +1,23 @@
+
+const diamondOne = new Image();
+image.src = 'img/diamond2.jpg';
+
+const diamondTwo = new Image();
+image.src = 'img/diamond2.jpg';
+
+const diamondThree = new Image();
+image.src = 'img/diamond2.jpg';
+
+const diamondFour = new Image();
+image.src = 'img/diamond2.jpg';
+
+const diamondFive = new Image();
+image.src = 'img/diamond2.jpg';
+
+
+
+ctx.drawImage(diamondOne, 332, 122, 20, 20);
+    ctx.drawImage(diamondTwo, 482, 32, 20, 20);
+    ctx.drawImage(diamondThree, 362, 332, 20, 20);
+    ctx.drawImage(diamondFour, 602, 332, 20, 20);
+    ctx.drawImage(diamondFive, 752, 122, 20, 20);
