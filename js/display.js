@@ -21,7 +21,7 @@ class Maze {
         ctx.moveTo(this.xOne, this.yOne);
         ctx.lineTo(this.xTwo, this.yTwo);
         ctx.lineWidth = 2;
-        ctx.strokeStyle = 'green';
+        ctx.strokeStyle = 'blue';
         ctx.stroke();
     }
 }
@@ -216,7 +216,7 @@ function rePaint() {
     ctx.drawImage(lebron, lebronX, lebronY, 26, 26);
     ctx.drawImage(diamondOne, 332, 122, 20, 20);
     ctx.drawImage(diamondTwo, 482, 32, 20, 20);
-    ctx.drawImage(diamondThree, 362, 332, 20, 20);
+    ctx.drawImage(diamondThree, 362, 302, 20, 20);
     ctx.drawImage(diamondFour, 602, 332, 20, 20);
     ctx.drawImage(diamondFive, 752, 122, 20, 20);
 
