@@ -10,6 +10,11 @@ game.width = parseInt(width);
 
 const ctx = game.getContext('2d');
 
+let gameStatus = false; 
+let diamonds = 0;
+
+const status = document.getElementById('status');
+
 class Maze {
     constructor(xOne, yOne, xTwo, yTwo) {
         this.xOne = xOne
@@ -144,7 +149,7 @@ const lineOneFifteen = new Maze (570, 90, 570, 150);
 const lineOneSixteen = new Maze (570, 210, 570, 300);
 const lineOneSeventeen = new Maze (600, 120, 690, 120);
 const lineOneEighteen = new Maze (600, 210, 660, 210);
-const lineOneNinteen = new Maze (600, 270, 630, 270);
+const lineOneNineteen = new Maze (600, 270, 630, 270);
 const lineOneTwenty = new Maze (600, 330, 630, 330);
 const lineOneTwentyOne = new Maze (600, 30, 600, 120);
 const lineOneTwentyTwo = new Maze (600, 210, 600, 330);
