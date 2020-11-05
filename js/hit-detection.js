@@ -789,6 +789,37 @@ function detectHit() {
         && lebronY < lineOneFiftyEight.yTwo
         && lebronY+26> lineOneFiftyEight.yOne) {
         gameStatus = false
-    }
+    } else if (lebronX+10 < 352
+        && lebronX+16 > 332
+        && lebronY < 142
+        && lebronY+26 > 122) {
+        diamondOneAlive = false
+    } else if (lebronX+10 < 502
+        && lebronX+16 > 482
+        && lebronY < 52
+        && lebronY+26 > 32) {
+        diamondTwoAlive = false
+    } else if (lebronX+10 < 382
+        && lebronX+16 > 362
+        && lebronY < 322
+        && lebronY+26 > 302) {
+        diamondThreeAlive = false
+    } else if (lebronX+10 < 622
+        && lebronX+16 > 602
+        && lebronY < 352
+        && lebronY+26 > 332) {
+        diamondFourAlive = false
+    } else if (lebronX+10 < 772
+        && lebronX+16 > 752
+        && lebronY < 142
+        && lebronY+26 > 122) {
+        diamondFiveAlive = false
+    } else if (lebronX+10 < 22
+        && lebronX+16 > 2
+        && lebronY < 172
+        && lebronY+26 > 152) {
+        diamondOneAlive = false;
+        
+    } 
 } 
 

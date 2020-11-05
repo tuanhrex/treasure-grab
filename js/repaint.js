@@ -2,14 +2,36 @@ function rePaint() {
     // clear the entire canvas
     ctx.clearRect(0, 0, game.width, game.height);
 
-    if (gameStatus === true || time > 0) {
+    if (gameStatus === false || time === 0) {
+        clearInterval(rePaint);
+        clearInterval(timeRemaining);
+        status.textContent = `Click to start again`
+        
+    } else if (gameStatus === true && time > 0) {
+        
 
         ctx.drawImage(lebron, lebronX, lebronY, 26, 26);
-        ctx.drawImage(diamondOne, 332, 122, 20, 20);
-        ctx.drawImage(diamondTwo, 482, 32, 20, 20);
-        ctx.drawImage(diamondThree, 362, 302, 20, 20);
-        ctx.drawImage(diamondFour, 602, 332, 20, 20);
-        ctx.drawImage(diamondFive, 752, 122, 20, 20);
+        if (diamondOneAlive === true) {
+            // ctx.drawImage(diamondOne, 332, 122, 20, 20);
+            ctx.drawImage(diamondOne, 2, 152, 20, 20);
+
+        } 
+        if (diamondTwoAlive === true) {
+            ctx.drawImage(diamondTwo, 482, 32, 20, 20);
+
+        }
+        if (diamondThreeAlive === true) {
+            ctx.drawImage(diamondThree, 362, 302, 20, 20);
+
+        } 
+        if (diamondFourAlive === true) {
+            ctx.drawImage(diamondFour, 602, 332, 20, 20);
+
+        }
+        if (diamondFiveAlive === true) {
+            ctx.drawImage(diamondFive, 752, 122, 20, 20);
+
+        }
 
         lineOne.render();
         lineTwo.render();
@@ -171,9 +193,5 @@ function rePaint() {
         lineOneFiftyEight.render();
 
         detectHit()
-    } else if (gameStatus === false || time === 0) {
-        clearInterval(rePaint);
-        clearInterval(timeRemaining);
-        status.textContent = `Click to start again`
     }
 }

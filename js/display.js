@@ -11,7 +11,7 @@ game.width = parseInt(width);
 const ctx = game.getContext('2d');
 
 let gameStatus = false; 
-let diamonds = 0;
+
 
 const status = document.getElementById('status');
 
@@ -193,18 +193,23 @@ const lineOneFiftyEight = new Maze (780, 240, 780, 300);
 
 const diamondOne = new Image();
 diamondOne.src = 'img/diamond2.jpg';
+let diamondOneAlive = false;
 
 const diamondTwo = new Image();
 diamondTwo.src = 'img/diamond2.jpg';
+let diamondTwoAlive = false;
 
 const diamondThree = new Image();
 diamondThree.src = 'img/diamond2.jpg';
+let diamondThreeAlive = false;
 
 const diamondFour = new Image();
 diamondFour.src = 'img/diamond2.jpg';
+let diamondFourAlive = false;
 
 const diamondFive = new Image();
 diamondFive.src = 'img/diamond2.jpg';
+let diamondFiveAlive = false;
 
 let lebronX = 2;
 let lebronY = 182;

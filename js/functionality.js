@@ -1,22 +1,37 @@
 let time = 300;
 function timeRemaining() {
-    
-        const timer = document.getElementById('timer');
-        timer.textContent = `Time Remaining: ${time}`;
-        time -= 1
+        if (gameStatus === true) {
+            const timer = document.getElementById('timer');
+            timer.textContent = `Time Remaining: ${time}`;
+            time -= 1
+
+        } else {
+            clearInterval(timeRemaining);
+        }
     
 }
 
-
+function diamondCount() {
+    if (diamondOneAlive === false && diamondTwoAlive === false && diamondThreeAlive === false && diamondFourAlive === false && diamondFiveAlive === false) {
+        status.textContent = "5 diamonds obtained"
+    } else if ((diamondOneAlive === false && diamondTwoAlive === false && diamondThreeAlive === false && diamondFourAlive === false) || (diamondOneAlive === false && diamondTwoAlive === false && diamondThreeAlive === false && diamondFiveAlive === false) || (diamondOneAlive === false && diamondTwoAlive === false && diamondFourAlive === false && diamondFiveAlive === false) || (diamondOneAlive === false && diamondThreeAlive === false && diamondFourAlive === false && diamondFiveAlive === false) || (diamondTwoAlive === false && diamondThreeAlive === false && diamondFourAlive === false && diamondFiveAlive === false)) {
+        status.textContent = "4 diamonds obtained"
+    }
+}
 
 
 document.getElementById('status').addEventListener('click', function() {
     time = 300;
     gameStatus = true;
+    diamondOneAlive = true;
+    diamondTwoAlive = true;
+    diamondThreeAlive = true;
+    diamondFourAlive = true;
+    diamondFiveAlive = true;
     lebronX = 2;
     lebronY = 182;
     
-    status.textContent = `${diamonds} diamonds obtained`
+    status.textContent = `0 diamonds obtained`
 
     rePaint();
 
