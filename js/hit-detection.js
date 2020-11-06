@@ -1,824 +1,824 @@
 function detectHit() {
-    if (lebronX+10 < lineOne.xTwo
-        && lebronX+16 > lineOne.xOne 
+    if (lebronX < lineOne.xTwo
+        && lebronX+20 > lineOne.xOne 
         && lebronY < lineOne.yTwo
         && lebronY+26> lineOne.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineTwo.xTwo
-        && lebronX+16 > lineTwo.xOne 
+    } else if (lebronX < lineTwo.xTwo
+        && lebronX+20 > lineTwo.xOne 
         && lebronY < lineTwo.yTwo
         && lebronY+26> lineTwo.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineThree.xTwo
-        && lebronX+16 > lineThree.xOne 
+    } else if (lebronX < lineThree.xTwo
+        && lebronX+20 > lineThree.xOne 
         && lebronY < lineThree.yTwo
         && lebronY+26> lineThree.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineFour.xTwo
-        && lebronX+16 > lineFour.xOne 
+    } else if (lebronX < lineFour.xTwo
+        && lebronX+20 > lineFour.xOne 
         && lebronY < lineFour.yTwo
         && lebronY+26> lineFour.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineFive.xTwo
-        && lebronX+16 > lineFive.xOne 
+    } else if (lebronX < lineFive.xTwo
+        && lebronX+20 > lineFive.xOne 
         && lebronY < lineFive.yTwo
         && lebronY+26> lineFive.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineSix.xTwo
-        && lebronX+16 > lineSix.xOne 
+    } else if (lebronX < lineSix.xTwo
+        && lebronX+20 > lineSix.xOne 
         && lebronY < lineSix.yTwo
         && lebronY+26> lineSix.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineSeven.xTwo
-        && lebronX+16 > lineSeven.xOne 
+    } else if (lebronX < lineSeven.xTwo
+        && lebronX+20 > lineSeven.xOne 
         && lebronY < lineSeven.yTwo
         && lebronY+26> lineSeven.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineEight.xTwo
-        && lebronX+16 > lineEight.xOne 
+    } else if (lebronX < lineEight.xTwo
+        && lebronX+20 > lineEight.xOne 
         && lebronY < lineEight.yTwo
         && lebronY+26> lineEight.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineNine.xTwo
-        && lebronX+16 > lineNine.xOne 
+    } else if (lebronX < lineNine.xTwo
+        && lebronX+20 > lineNine.xOne 
         && lebronY < lineNine.yTwo
         && lebronY+26> lineNine.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineTen.xTwo
-        && lebronX+16 > lineTen.xOne 
+    } else if (lebronX < lineTen.xTwo
+        && lebronX+20 > lineTen.xOne 
         && lebronY < lineTen.yTwo
         && lebronY+26> lineTen.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineEleven.xTwo
-        && lebronX+16 > lineEleven.xOne 
+    } else if (lebronX < lineEleven.xTwo
+        && lebronX+20 > lineEleven.xOne 
         && lebronY < lineEleven.yTwo
         && lebronY+26> lineEleven.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineTwelve.xTwo
-        && lebronX+16 > lineTwelve.xOne 
+    } else if (lebronX < lineTwelve.xTwo
+        && lebronX+20 > lineTwelve.xOne 
         && lebronY < lineTwelve.yTwo
         && lebronY+26> lineTwelve.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineThirteen.xTwo
-        && lebronX+16 > lineThirteen.xOne 
+    } else if (lebronX < lineThirteen.xTwo
+        && lebronX+20 > lineThirteen.xOne 
         && lebronY < lineThirteen.yTwo
         && lebronY+26> lineThirteen.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineFourteen.xTwo
-        && lebronX+16 > lineFourteen.xOne 
+    } else if (lebronX < lineFourteen.xTwo
+        && lebronX+20 > lineFourteen.xOne 
         && lebronY < lineFourteen.yTwo
         && lebronY+26> lineFourteen.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineFifteen.xTwo
-        && lebronX+16 > lineFifteen.xOne 
+    } else if (lebronX < lineFifteen.xTwo
+        && lebronX+20 > lineFifteen.xOne 
         && lebronY < lineFifteen.yTwo
         && lebronY+26> lineFifteen.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineSixteen.xTwo
-        && lebronX+16 > lineSixteen.xOne 
+    } else if (lebronX < lineSixteen.xTwo
+        && lebronX+20 > lineSixteen.xOne 
         && lebronY < lineSixteen.yTwo
         && lebronY+26> lineSixteen.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineSeventeen.xTwo
-        && lebronX+16 > lineSeventeen.xOne 
+    } else if (lebronX < lineSeventeen.xTwo
+        && lebronX+20 > lineSeventeen.xOne 
         && lebronY < lineSeventeen.yTwo
         && lebronY+26> lineSeventeen.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineEighteen.xTwo
-        && lebronX+16 > lineEighteen.xOne 
+    } else if (lebronX < lineEighteen.xTwo
+        && lebronX+20 > lineEighteen.xOne 
         && lebronY < lineEighteen.yTwo
         && lebronY+26> lineEighteen.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineNineteen.xTwo
-        && lebronX+16 > lineNineteen.xOne 
+    } else if (lebronX < lineNineteen.xTwo
+        && lebronX+20 > lineNineteen.xOne 
         && lebronY < lineNineteen.yTwo
         && lebronY+26> lineNineteen.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineTwenty.xTwo
-        && lebronX+16 > lineTwenty.xOne 
+    } else if (lebronX < lineTwenty.xTwo
+        && lebronX+20 > lineTwenty.xOne 
         && lebronY < lineTwenty.yTwo
         && lebronY+26> lineTwenty.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineTwentyOne.xTwo
-        && lebronX+16 > lineTwentyOne.xOne 
+    } else if (lebronX < lineTwentyOne.xTwo
+        && lebronX+20 > lineTwentyOne.xOne 
         && lebronY < lineTwentyOne.yTwo
         && lebronY+26> lineTwentyOne.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineTwentyTwo.xTwo
-        && lebronX+16 > lineTwentyTwo.xOne 
+    } else if (lebronX < lineTwentyTwo.xTwo
+        && lebronX+20 > lineTwentyTwo.xOne 
         && lebronY < lineTwentyTwo.yTwo
         && lebronY+26> lineTwentyTwo.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineTwentyThree.xTwo
-        && lebronX+16 > lineTwentyThree.xOne 
+    } else if (lebronX < lineTwentyThree.xTwo
+        && lebronX+20 > lineTwentyThree.xOne 
         && lebronY < lineTwentyThree.yTwo
         && lebronY+26> lineTwentyThree.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineTwentyFour.xTwo
-        && lebronX+16 > lineTwentyFour.xOne 
+    } else if (lebronX < lineTwentyFour.xTwo
+        && lebronX+20 > lineTwentyFour.xOne 
         && lebronY < lineTwentyFour.yTwo
         && lebronY+26> lineTwentyFour.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineTwentyFive.xTwo
-        && lebronX+16 > lineTwentyFive.xOne 
+    } else if (lebronX < lineTwentyFive.xTwo
+        && lebronX+20 > lineTwentyFive.xOne 
         && lebronY < lineTwentyFive.yTwo
         && lebronY+26> lineTwentyFive.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineTwentySix.xTwo
-        && lebronX+16 > lineTwentySix.xOne 
+    } else if (lebronX < lineTwentySix.xTwo
+        && lebronX+20 > lineTwentySix.xOne 
         && lebronY < lineTwentySix.yTwo
         && lebronY+26> lineTwentySix.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineTwentySeven.xTwo
-        && lebronX+16 > lineTwentySeven.xOne 
+    } else if (lebronX < lineTwentySeven.xTwo
+        && lebronX+20 > lineTwentySeven.xOne 
         && lebronY < lineTwentySeven.yTwo
         && lebronY+26> lineTwentySeven.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineTwentyEight.xTwo
-        && lebronX+16 > lineTwentyEight.xOne 
+    } else if (lebronX < lineTwentyEight.xTwo
+        && lebronX+20 > lineTwentyEight.xOne 
         && lebronY < lineTwentyEight.yTwo
         && lebronY+26> lineTwentyEight.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineTwentyNine.xTwo
-        && lebronX+16 > lineTwentyNine.xOne 
+    } else if (lebronX < lineTwentyNine.xTwo
+        && lebronX+20 > lineTwentyNine.xOne 
         && lebronY < lineTwentyNine.yTwo
         && lebronY+26> lineTwentyNine.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineThirty.xTwo
-        && lebronX+16 > lineThirty.xOne 
+    } else if (lebronX < lineThirty.xTwo
+        && lebronX+20 > lineThirty.xOne 
         && lebronY < lineThirty.yTwo
         && lebronY+26> lineThirty.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineThirtyOne.xTwo
-        && lebronX+16 > lineThirtyOne.xOne 
+    } else if (lebronX < lineThirtyOne.xTwo
+        && lebronX+20 > lineThirtyOne.xOne 
         && lebronY < lineThirtyOne.yTwo
         && lebronY+26> lineThirtyOne.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineThirtyTwo.xTwo
-        && lebronX+16 > lineThirtyTwo.xOne 
+    } else if (lebronX < lineThirtyTwo.xTwo
+        && lebronX+20 > lineThirtyTwo.xOne 
         && lebronY < lineThirtyTwo.yTwo
         && lebronY+26> lineThirtyTwo.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineThirtyThree.xTwo
-        && lebronX+16 > lineThirtyThree.xOne 
+    } else if (lebronX < lineThirtyThree.xTwo
+        && lebronX+20 > lineThirtyThree.xOne 
         && lebronY < lineThirtyThree.yTwo
         && lebronY+26> lineThirtyThree.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineThirtyFour.xTwo
-        && lebronX+16 > lineThirtyFour.xOne 
+    } else if (lebronX < lineThirtyFour.xTwo
+        && lebronX+20 > lineThirtyFour.xOne 
         && lebronY < lineThirtyFour.yTwo
         && lebronY+26> lineThirtyFour.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineThirtyFive.xTwo
-        && lebronX+16 > lineThirtyFive.xOne 
+    } else if (lebronX < lineThirtyFive.xTwo
+        && lebronX+20 > lineThirtyFive.xOne 
         && lebronY < lineThirtyFive.yTwo
         && lebronY+26> lineThirtyFive.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineThirtySix.xTwo
-        && lebronX+16 > lineThirtySix.xOne 
+    } else if (lebronX < lineThirtySix.xTwo
+        && lebronX+20 > lineThirtySix.xOne 
         && lebronY < lineThirtySix.yTwo
         && lebronY+26> lineThirtySix.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineThirtySeven.xTwo
-        && lebronX+16 > lineThirtySeven.xOne 
+    } else if (lebronX < lineThirtySeven.xTwo
+        && lebronX+20 > lineThirtySeven.xOne 
         && lebronY < lineThirtySeven.yTwo
         && lebronY+26> lineThirtySeven.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineThirtyEight.xTwo
-        && lebronX+16 > lineThirtyEight.xOne 
+    } else if (lebronX < lineThirtyEight.xTwo
+        && lebronX+20 > lineThirtyEight.xOne 
         && lebronY < lineThirtyEight.yTwo
         && lebronY+26> lineThirtyEight.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineThirtyNine.xTwo
-        && lebronX+16 > lineThirtyNine.xOne 
+    } else if (lebronX < lineThirtyNine.xTwo
+        && lebronX+20 > lineThirtyNine.xOne 
         && lebronY < lineThirtyNine.yTwo
         && lebronY+26> lineThirtyNine.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineForty.xTwo
-        && lebronX+16 > lineForty.xOne 
+    } else if (lebronX < lineForty.xTwo
+        && lebronX+20 > lineForty.xOne 
         && lebronY < lineForty.yTwo
         && lebronY+26> lineForty.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineFortyOne.xTwo
-        && lebronX+16 > lineFortyOne.xOne 
+    } else if (lebronX < lineFortyOne.xTwo
+        && lebronX+20 > lineFortyOne.xOne 
         && lebronY < lineFortyOne.yTwo
         && lebronY+26> lineFortyOne.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineFortyTwo.xTwo
-        && lebronX+16 > lineFortyTwo.xOne 
+    } else if (lebronX < lineFortyTwo.xTwo
+        && lebronX+20 > lineFortyTwo.xOne 
         && lebronY < lineFortyTwo.yTwo
         && lebronY+26> lineFortyTwo.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineFortyThree.xTwo
-        && lebronX+16 > lineFortyThree.xOne 
+    } else if (lebronX < lineFortyThree.xTwo
+        && lebronX+20 > lineFortyThree.xOne 
         && lebronY < lineFortyThree.yTwo
         && lebronY+26> lineFortyThree.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineFortyFour.xTwo
-        && lebronX+16 > lineFortyFour.xOne 
+    } else if (lebronX < lineFortyFour.xTwo
+        && lebronX+20 > lineFortyFour.xOne 
         && lebronY < lineFortyFour.yTwo
         && lebronY+26> lineFortyFour.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineFortyFive.xTwo
-        && lebronX+16 > lineFortyFive.xOne 
+    } else if (lebronX < lineFortyFive.xTwo
+        && lebronX+20 > lineFortyFive.xOne 
         && lebronY < lineFortyFive.yTwo
         && lebronY+26> lineFortyFive.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineFortySix.xTwo
-        && lebronX+16 > lineFortySix.xOne 
+    } else if (lebronX < lineFortySix.xTwo
+        && lebronX+20 > lineFortySix.xOne 
         && lebronY < lineFortySix.yTwo
         && lebronY+26> lineFortySix.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineFortySeven.xTwo
-        && lebronX+16 > lineFortySeven.xOne 
+    } else if (lebronX < lineFortySeven.xTwo
+        && lebronX+20 > lineFortySeven.xOne 
         && lebronY < lineFortySeven.yTwo
         && lebronY+26> lineFortySeven.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineFortyEight.xTwo
-        && lebronX+16 > lineFortyEight.xOne 
+    } else if (lebronX < lineFortyEight.xTwo
+        && lebronX+20 > lineFortyEight.xOne 
         && lebronY < lineFortyEight.yTwo
         && lebronY+26> lineFortyEight.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineFortyNine.xTwo
-        && lebronX+16 > lineFortyNine.xOne 
+    } else if (lebronX < lineFortyNine.xTwo
+        && lebronX+20 > lineFortyNine.xOne 
         && lebronY < lineFortyNine.yTwo
         && lebronY+26> lineFortyNine.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineFifty.xTwo
-        && lebronX+16 > lineFifty.xOne 
+    } else if (lebronX < lineFifty.xTwo
+        && lebronX+20 > lineFifty.xOne 
         && lebronY < lineFifty.yTwo
         && lebronY+26> lineFifty.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineFiftyOne.xTwo
-        && lebronX+16 > lineFiftyOne.xOne 
+    } else if (lebronX < lineFiftyOne.xTwo
+        && lebronX+20 > lineFiftyOne.xOne 
         && lebronY < lineFiftyOne.yTwo
         && lebronY+26> lineFiftyOne.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineFiftyTwo.xTwo
-        && lebronX+16 > lineFiftyTwo.xOne 
+    } else if (lebronX < lineFiftyTwo.xTwo
+        && lebronX+20 > lineFiftyTwo.xOne 
         && lebronY < lineFiftyTwo.yTwo
         && lebronY+26> lineFiftyTwo.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineFiftyThree.xTwo
-        && lebronX+16 > lineFiftyThree.xOne 
+    } else if (lebronX < lineFiftyThree.xTwo
+        && lebronX+20 > lineFiftyThree.xOne 
         && lebronY < lineFiftyThree.yTwo
         && lebronY+26> lineFiftyThree.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineFiftyFour.xTwo
-        && lebronX+16 > lineFiftyFour.xOne 
+    } else if (lebronX < lineFiftyFour.xTwo
+        && lebronX+20 > lineFiftyFour.xOne 
         && lebronY < lineFiftyFour.yTwo
         && lebronY+26> lineFiftyFour.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineFiftyFive.xTwo
-        && lebronX+16 > lineFiftyFive.xOne 
+    } else if (lebronX < lineFiftyFive.xTwo
+        && lebronX+20 > lineFiftyFive.xOne 
         && lebronY < lineFiftyFive.yTwo
         && lebronY+26> lineFiftyFive.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineFiftySix.xTwo
-        && lebronX+16 > lineFiftySix.xOne 
+    } else if (lebronX < lineFiftySix.xTwo
+        && lebronX+20 > lineFiftySix.xOne 
         && lebronY < lineFiftySix.yTwo
         && lebronY+26> lineFiftySix.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineFiftySeven.xTwo
-        && lebronX+16 > lineFiftySeven.xOne 
+    } else if (lebronX < lineFiftySeven.xTwo
+        && lebronX+20 > lineFiftySeven.xOne 
         && lebronY < lineFiftySeven.yTwo
         && lebronY+26> lineFiftySeven.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineFiftyEight.xTwo
-        && lebronX+16 > lineFiftyEight.xOne 
+    } else if (lebronX < lineFiftyEight.xTwo
+        && lebronX+20 > lineFiftyEight.xOne 
         && lebronY < lineFiftyEight.yTwo
         && lebronY+26> lineFiftyEight.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineFiftyNine.xTwo
-        && lebronX+16 > lineFiftyNine.xOne 
+    } else if (lebronX < lineFiftyNine.xTwo
+        && lebronX+20 > lineFiftyNine.xOne 
         && lebronY < lineFiftyNine.yTwo
         && lebronY+26> lineFiftyNine.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineSixty.xTwo
-        && lebronX+16 > lineSixty.xOne 
+    } else if (lebronX < lineSixty.xTwo
+        && lebronX+20 > lineSixty.xOne 
         && lebronY < lineSixty.yTwo
         && lebronY+26> lineSixty.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineSixtyOne.xTwo
-        && lebronX+16 > lineSixtyOne.xOne 
+    } else if (lebronX < lineSixtyOne.xTwo
+        && lebronX+20 > lineSixtyOne.xOne 
         && lebronY < lineSixtyOne.yTwo
         && lebronY+26> lineSixtyOne.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineSixtyTwo.xTwo
-        && lebronX+16 > lineSixtyTwo.xOne 
+    } else if (lebronX < lineSixtyTwo.xTwo
+        && lebronX+20 > lineSixtyTwo.xOne 
         && lebronY < lineSixtyTwo.yTwo
         && lebronY+26> lineSixtyTwo.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineSixtyThree.xTwo
-        && lebronX+16 > lineSixtyThree.xOne 
+    } else if (lebronX < lineSixtyThree.xTwo
+        && lebronX+20 > lineSixtyThree.xOne 
         && lebronY < lineSixtyThree.yTwo
         && lebronY+26> lineSixtyThree.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineSixtyFour.xTwo
-        && lebronX+16 > lineSixtyFour.xOne 
+    } else if (lebronX < lineSixtyFour.xTwo
+        && lebronX+20 > lineSixtyFour.xOne 
         && lebronY < lineSixtyFour.yTwo
         && lebronY+26> lineSixtyFour.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineSixtyFive.xTwo
-        && lebronX+16 > lineSixtyFive.xOne 
+    } else if (lebronX < lineSixtyFive.xTwo
+        && lebronX+20 > lineSixtyFive.xOne 
         && lebronY < lineSixtyFive.yTwo
         && lebronY+26> lineSixtyFive.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineSixtySix.xTwo
-        && lebronX+16 > lineSixtySix.xOne 
+    } else if (lebronX < lineSixtySix.xTwo
+        && lebronX+20 > lineSixtySix.xOne 
         && lebronY < lineSixtySix.yTwo
         && lebronY+26> lineSixtySix.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineSixtySeven.xTwo
-        && lebronX+16 > lineSixtySeven.xOne 
+    } else if (lebronX < lineSixtySeven.xTwo
+        && lebronX+20 > lineSixtySeven.xOne 
         && lebronY < lineSixtySeven.yTwo
         && lebronY+26> lineSixtySeven.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineSixtyEight.xTwo
-        && lebronX+16 > lineSixtyEight.xOne 
+    } else if (lebronX < lineSixtyEight.xTwo
+        && lebronX+20 > lineSixtyEight.xOne 
         && lebronY < lineSixtyEight.yTwo
         && lebronY+26> lineSixtyEight.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineSixtyNine.xTwo
-        && lebronX+16 > lineSixtyNine.xOne 
+    } else if (lebronX < lineSixtyNine.xTwo
+        && lebronX+20 > lineSixtyNine.xOne 
         && lebronY < lineSixtyNine.yTwo
         && lebronY+26> lineSixtyNine.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineSeventy.xTwo
-        && lebronX+16 > lineSeventy.xOne 
+    } else if (lebronX < lineSeventy.xTwo
+        && lebronX+20 > lineSeventy.xOne 
         && lebronY < lineSeventy.yTwo
         && lebronY+26> lineSeventy.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineSeventyOne.xTwo
-        && lebronX+16 > lineSeventyOne.xOne 
+    } else if (lebronX < lineSeventyOne.xTwo
+        && lebronX+20 > lineSeventyOne.xOne 
         && lebronY < lineSeventyOne.yTwo
         && lebronY+26> lineSeventyOne.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineSeventyTwo.xTwo
-        && lebronX+16 > lineSeventyTwo.xOne 
+    } else if (lebronX < lineSeventyTwo.xTwo
+        && lebronX+20 > lineSeventyTwo.xOne 
         && lebronY < lineSeventyTwo.yTwo
         && lebronY+26> lineSeventyTwo.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineSeventyThree.xTwo
-        && lebronX+16 > lineSeventyThree.xOne 
+    } else if (lebronX < lineSeventyThree.xTwo
+        && lebronX+20 > lineSeventyThree.xOne 
         && lebronY < lineSeventyThree.yTwo
         && lebronY+26> lineSeventyThree.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineSeventyFour.xTwo
-        && lebronX+16 > lineSeventyFour.xOne 
+    } else if (lebronX < lineSeventyFour.xTwo
+        && lebronX+20 > lineSeventyFour.xOne 
         && lebronY < lineSeventyFour.yTwo
         && lebronY+26> lineSeventyFour.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineSeventyFive.xTwo
-        && lebronX+16 > lineSeventyFive.xOne 
+    } else if (lebronX < lineSeventyFive.xTwo
+        && lebronX+20 > lineSeventyFive.xOne 
         && lebronY < lineSeventyFive.yTwo
         && lebronY+26> lineSeventyFive.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineSeventySix.xTwo
-        && lebronX+16 > lineSeventySix.xOne 
+    } else if (lebronX < lineSeventySix.xTwo
+        && lebronX+20 > lineSeventySix.xOne 
         && lebronY < lineSeventySix.yTwo
         && lebronY+26> lineSeventySix.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineSeventySeven.xTwo
-        && lebronX+16 > lineSeventySeven.xOne 
+    } else if (lebronX < lineSeventySeven.xTwo
+        && lebronX+20 > lineSeventySeven.xOne 
         && lebronY < lineSeventySeven.yTwo
         && lebronY+26> lineSeventySeven.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineSeventyEight.xTwo
-        && lebronX+16 > lineSeventyEight.xOne 
+    } else if (lebronX < lineSeventyEight.xTwo
+        && lebronX+20 > lineSeventyEight.xOne 
         && lebronY < lineSeventyEight.yTwo
         && lebronY+26> lineSeventyEight.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineSeventyNine.xTwo
-        && lebronX+16 > lineSeventyNine.xOne 
+    } else if (lebronX < lineSeventyNine.xTwo
+        && lebronX+20 > lineSeventyNine.xOne 
         && lebronY < lineSeventyNine.yTwo
         && lebronY+26> lineSeventyNine.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineEighty.xTwo
-        && lebronX+16 > lineEighty.xOne 
+    } else if (lebronX < lineEighty.xTwo
+        && lebronX+20 > lineEighty.xOne 
         && lebronY < lineEighty.yTwo
         && lebronY+26> lineEighty.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineEightyOne.xTwo
-        && lebronX+16 > lineEightyOne.xOne 
+    } else if (lebronX < lineEightyOne.xTwo
+        && lebronX+20 > lineEightyOne.xOne 
         && lebronY < lineEightyOne.yTwo
         && lebronY+26> lineEightyOne.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineEightyTwo.xTwo
-        && lebronX+16 > lineEightyTwo.xOne 
+    } else if (lebronX < lineEightyTwo.xTwo
+        && lebronX+20 > lineEightyTwo.xOne 
         && lebronY < lineEightyTwo.yTwo
         && lebronY+26> lineEightyTwo.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineEightyThree.xTwo
-        && lebronX+16 > lineEightyThree.xOne 
+    } else if (lebronX < lineEightyThree.xTwo
+        && lebronX+20 > lineEightyThree.xOne 
         && lebronY < lineEightyThree.yTwo
         && lebronY+26> lineEightyThree.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineEightyFour.xTwo
-        && lebronX+16 > lineEightyFour.xOne 
+    } else if (lebronX < lineEightyFour.xTwo
+        && lebronX+20 > lineEightyFour.xOne 
         && lebronY < lineEightyFour.yTwo
         && lebronY+26> lineEightyFour.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineEightyFive.xTwo
-        && lebronX+16 > lineEightyFive.xOne 
+    } else if (lebronX < lineEightyFive.xTwo
+        && lebronX+20 > lineEightyFive.xOne 
         && lebronY < lineEightyFive.yTwo
         && lebronY+26> lineEightyFive.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineEightySix.xTwo
-        && lebronX+16 > lineEightySix.xOne 
+    } else if (lebronX < lineEightySix.xTwo
+        && lebronX+20 > lineEightySix.xOne 
         && lebronY < lineEightySix.yTwo
         && lebronY+26> lineEightySix.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineEightySeven.xTwo
-        && lebronX+16 > lineEightySeven.xOne 
+    } else if (lebronX < lineEightySeven.xTwo
+        && lebronX+20 > lineEightySeven.xOne 
         && lebronY < lineEightySeven.yTwo
         && lebronY+26> lineEightySeven.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineEightyEight.xTwo
-        && lebronX+16 > lineEightyEight.xOne 
+    } else if (lebronX < lineEightyEight.xTwo
+        && lebronX+20 > lineEightyEight.xOne 
         && lebronY < lineEightyEight.yTwo
         && lebronY+26> lineEightyEight.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineEightyNine.xTwo
-        && lebronX+16 > lineEightyNine.xOne 
+    } else if (lebronX < lineEightyNine.xTwo
+        && lebronX+20 > lineEightyNine.xOne 
         && lebronY < lineEightyNine.yTwo
         && lebronY+26> lineEightyNine.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineNinety.xTwo
-        && lebronX+16 > lineNinety.xOne 
+    } else if (lebronX < lineNinety.xTwo
+        && lebronX+20 > lineNinety.xOne 
         && lebronY < lineNinety.yTwo
         && lebronY+26> lineNinety.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineNinetyOne.xTwo
-        && lebronX+16 > lineNinetyOne.xOne 
+    } else if (lebronX < lineNinetyOne.xTwo
+        && lebronX+20 > lineNinetyOne.xOne 
         && lebronY < lineNinetyOne.yTwo
         && lebronY+26> lineNinetyOne.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineNinetyTwo.xTwo
-        && lebronX+16 > lineNinetyTwo.xOne 
+    } else if (lebronX < lineNinetyTwo.xTwo
+        && lebronX+20 > lineNinetyTwo.xOne 
         && lebronY < lineNinetyTwo.yTwo
         && lebronY+26> lineNinetyTwo.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineNinetyThree.xTwo
-        && lebronX+16 > lineNinetyThree.xOne 
+    } else if (lebronX < lineNinetyThree.xTwo
+        && lebronX+20 > lineNinetyThree.xOne 
         && lebronY < lineNinetyThree.yTwo
         && lebronY+26> lineNinetyThree.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineNinetyFour.xTwo
-        && lebronX+16 > lineNinetyFour.xOne 
+    } else if (lebronX < lineNinetyFour.xTwo
+        && lebronX+20 > lineNinetyFour.xOne 
         && lebronY < lineNinetyFour.yTwo
         && lebronY+26> lineNinetyFour.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineNinetyFive.xTwo
-        && lebronX+16 > lineNinetyFive.xOne 
+    } else if (lebronX < lineNinetyFive.xTwo
+        && lebronX+20 > lineNinetyFive.xOne 
         && lebronY < lineNinetyFive.yTwo
         && lebronY+26> lineNinetyFive.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineNinetySix.xTwo
-        && lebronX+16 > lineNinetySix.xOne 
+    } else if (lebronX < lineNinetySix.xTwo
+        && lebronX+20 > lineNinetySix.xOne 
         && lebronY < lineNinetySix.yTwo
         && lebronY+26> lineNinetySix.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineNinetySeven.xTwo
-        && lebronX+16 > lineNinetySeven.xOne 
+    } else if (lebronX < lineNinetySeven.xTwo
+        && lebronX+20 > lineNinetySeven.xOne 
         && lebronY < lineNinetySeven.yTwo
         && lebronY+26> lineNinetySeven.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineNinetyEight.xTwo
-        && lebronX+16 > lineNinetyEight.xOne 
+    } else if (lebronX < lineNinetyEight.xTwo
+        && lebronX+20 > lineNinetyEight.xOne 
         && lebronY < lineNinetyEight.yTwo
         && lebronY+26> lineNinetyEight.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineNinetyNine.xTwo
-        && lebronX+16 > lineNinetyNine.xOne 
+    } else if (lebronX < lineNinetyNine.xTwo
+        && lebronX+20 > lineNinetyNine.xOne 
         && lebronY < lineNinetyNine.yTwo
         && lebronY+26> lineNinetyNine.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineOneHundred.xTwo
-        && lebronX+16 > lineOneHundred.xOne 
+    } else if (lebronX < lineOneHundred.xTwo
+        && lebronX+20 > lineOneHundred.xOne 
         && lebronY < lineOneHundred.yTwo
         && lebronY+26> lineOneHundred.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineOneHundredOne.xTwo
-        && lebronX+16 > lineOneHundredOne.xOne 
+    } else if (lebronX < lineOneHundredOne.xTwo
+        && lebronX+20 > lineOneHundredOne.xOne 
         && lebronY < lineOneHundredOne.yTwo
         && lebronY+26> lineOneHundredOne.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineOneHundredTwo.xTwo
-        && lebronX+16 > lineOneHundredTwo.xOne 
+    } else if (lebronX < lineOneHundredTwo.xTwo
+        && lebronX+20 > lineOneHundredTwo.xOne 
         && lebronY < lineOneHundredTwo.yTwo
         && lebronY+26> lineOneHundredTwo.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineOneHundredThree.xTwo
-        && lebronX+16 > lineOneHundredThree.xOne 
+    } else if (lebronX < lineOneHundredThree.xTwo
+        && lebronX+20 > lineOneHundredThree.xOne 
         && lebronY < lineOneHundredThree.yTwo
         && lebronY+26> lineOneHundredThree.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineOneHundredFour.xTwo
-        && lebronX+16 > lineOneHundredFour.xOne 
+    } else if (lebronX < lineOneHundredFour.xTwo
+        && lebronX+20 > lineOneHundredFour.xOne 
         && lebronY < lineOneHundredFour.yTwo
         && lebronY+26> lineOneHundredFour.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineOneHundredFive.xTwo
-        && lebronX+16 > lineOneHundredFive.xOne 
+    } else if (lebronX < lineOneHundredFive.xTwo
+        && lebronX+20 > lineOneHundredFive.xOne 
         && lebronY < lineOneHundredFive.yTwo
         && lebronY+26> lineOneHundredFive.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineOneHundredSix.xTwo
-        && lebronX+16 > lineOneHundredSix.xOne 
+    } else if (lebronX < lineOneHundredSix.xTwo
+        && lebronX+20 > lineOneHundredSix.xOne 
         && lebronY < lineOneHundredSix.yTwo
         && lebronY+26> lineOneHundredSix.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineOneHundredSeven.xTwo
-        && lebronX+16 > lineOneHundredSeven.xOne 
+    } else if (lebronX < lineOneHundredSeven.xTwo
+        && lebronX+20 > lineOneHundredSeven.xOne 
         && lebronY < lineOneHundredSeven.yTwo
         && lebronY+26> lineOneHundredSeven.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineOneHundredEight.xTwo
-        && lebronX+16 > lineOneHundredEight.xOne 
+    } else if (lebronX < lineOneHundredEight.xTwo
+        && lebronX+20 > lineOneHundredEight.xOne 
         && lebronY < lineOneHundredEight.yTwo
         && lebronY+26> lineOneHundredEight.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineOneHundredNine.xTwo
-        && lebronX+16 > lineOneHundredNine.xOne 
+    } else if (lebronX < lineOneHundredNine.xTwo
+        && lebronX+20 > lineOneHundredNine.xOne 
         && lebronY < lineOneHundredNine.yTwo
         && lebronY+26> lineOneHundredNine.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineOneTen.xTwo
-        && lebronX+16 > lineOneTen.xOne 
+    } else if (lebronX < lineOneTen.xTwo
+        && lebronX+20 > lineOneTen.xOne 
         && lebronY < lineOneTen.yTwo
         && lebronY+26> lineOneTen.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineOneEleven.xTwo
-        && lebronX+16 > lineOneEleven.xOne 
+    } else if (lebronX < lineOneEleven.xTwo
+        && lebronX+20 > lineOneEleven.xOne 
         && lebronY < lineOneEleven.yTwo
         && lebronY+26> lineOneEleven.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineOneTwelve.xTwo
-        && lebronX+16 > lineOneTwelve.xOne 
+    } else if (lebronX < lineOneTwelve.xTwo
+        && lebronX+20 > lineOneTwelve.xOne 
         && lebronY < lineOneTwelve.yTwo
         && lebronY+26> lineOneTwelve.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineOneThirteen.xTwo
-        && lebronX+16 > lineOneThirteen.xOne 
+    } else if (lebronX < lineOneThirteen.xTwo
+        && lebronX+20 > lineOneThirteen.xOne 
         && lebronY < lineOneThirteen.yTwo
         && lebronY+26> lineOneThirteen.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineOneFourteen.xTwo
-        && lebronX+16 > lineOneFourteen.xOne 
+    } else if (lebronX < lineOneFourteen.xTwo
+        && lebronX+20 > lineOneFourteen.xOne 
         && lebronY < lineOneFourteen.yTwo
         && lebronY+26> lineOneFourteen.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineOneFifteen.xTwo
-        && lebronX+16 > lineOneFifteen.xOne 
+    } else if (lebronX < lineOneFifteen.xTwo
+        && lebronX+20 > lineOneFifteen.xOne 
         && lebronY < lineOneFifteen.yTwo
         && lebronY+26> lineOneFifteen.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineOneSixteen.xTwo
-        && lebronX+16 > lineOneSixteen.xOne 
+    } else if (lebronX < lineOneSixteen.xTwo
+        && lebronX+20 > lineOneSixteen.xOne 
         && lebronY < lineOneSixteen.yTwo
         && lebronY+26> lineOneSixteen.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineOneSeventeen.xTwo
-        && lebronX+16 > lineOneSeventeen.xOne 
+    } else if (lebronX < lineOneSeventeen.xTwo
+        && lebronX+20 > lineOneSeventeen.xOne 
         && lebronY < lineOneSeventeen.yTwo
         && lebronY+26> lineOneSeventeen.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineOneEighteen.xTwo
-        && lebronX+16 > lineOneEighteen.xOne 
+    } else if (lebronX < lineOneEighteen.xTwo
+        && lebronX+20 > lineOneEighteen.xOne 
         && lebronY < lineOneEighteen.yTwo
         && lebronY+26> lineOneEighteen.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineOneNineteen.xTwo
-        && lebronX+16 > lineOneNineteen.xOne 
+    } else if (lebronX < lineOneNineteen.xTwo
+        && lebronX+20 > lineOneNineteen.xOne 
         && lebronY < lineOneNineteen.yTwo
         && lebronY+26> lineOneNineteen.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineOneTwenty.xTwo
-        && lebronX+16 > lineOneTwenty.xOne 
+    } else if (lebronX < lineOneTwenty.xTwo
+        && lebronX+20 > lineOneTwenty.xOne 
         && lebronY < lineOneTwenty.yTwo
         && lebronY+26> lineOneTwenty.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineOneTwentyOne.xTwo
-        && lebronX+16 > lineOneTwentyOne.xOne 
+    } else if (lebronX < lineOneTwentyOne.xTwo
+        && lebronX+20 > lineOneTwentyOne.xOne 
         && lebronY < lineOneTwentyOne.yTwo
         && lebronY+26> lineOneTwentyOne.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineOneTwentyTwo.xTwo
-        && lebronX+16 > lineOneTwentyTwo.xOne 
+    } else if (lebronX < lineOneTwentyTwo.xTwo
+        && lebronX+20 > lineOneTwentyTwo.xOne 
         && lebronY < lineOneTwentyTwo.yTwo
         && lebronY+26> lineOneTwentyTwo.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineOneTwentyThree.xTwo
-        && lebronX+16 > lineOneTwentyThree.xOne 
+    } else if (lebronX < lineOneTwentyThree.xTwo
+        && lebronX+20 > lineOneTwentyThree.xOne 
         && lebronY < lineOneTwentyThree.yTwo
         && lebronY+26> lineOneTwentyThree.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineOneTwentyFour.xTwo
-        && lebronX+16 > lineOneTwentyFour.xOne 
+    } else if (lebronX < lineOneTwentyFour.xTwo
+        && lebronX+20 > lineOneTwentyFour.xOne 
         && lebronY < lineOneTwentyFour.yTwo
         && lebronY+26> lineOneTwentyFour.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineOneTwentyFive.xTwo
-        && lebronX+16 > lineOneTwentyFive.xOne 
+    } else if (lebronX < lineOneTwentyFive.xTwo
+        && lebronX+20 > lineOneTwentyFive.xOne 
         && lebronY < lineOneTwentyFive.yTwo
         && lebronY+26> lineOneTwentyFive.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineOneTwentySix.xTwo
-        && lebronX+16 > lineOneTwentySix.xOne 
+    } else if (lebronX < lineOneTwentySix.xTwo
+        && lebronX+20 > lineOneTwentySix.xOne 
         && lebronY < lineOneTwentySix.yTwo
         && lebronY+26> lineOneTwentySix.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineOneTwentySeven.xTwo
-        && lebronX+16 > lineOneTwentySeven.xOne 
+    } else if (lebronX < lineOneTwentySeven.xTwo
+        && lebronX+20 > lineOneTwentySeven.xOne 
         && lebronY < lineOneTwentySeven.yTwo
         && lebronY+26> lineOneTwentySeven.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineOneTwentyEight.xTwo
-        && lebronX+16 > lineOneTwentyEight.xOne 
+    } else if (lebronX < lineOneTwentyEight.xTwo
+        && lebronX+20 > lineOneTwentyEight.xOne 
         && lebronY < lineOneTwentyEight.yTwo
         && lebronY+26> lineOneTwentyEight.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineOneTwentyNine.xTwo
-        && lebronX+16 > lineOneTwentyNine.xOne 
+    } else if (lebronX < lineOneTwentyNine.xTwo
+        && lebronX+20 > lineOneTwentyNine.xOne 
         && lebronY < lineOneTwentyNine.yTwo
         && lebronY+26> lineOneTwentyNine.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineOneThirty.xTwo
-        && lebronX+16 > lineOneThirty.xOne 
+    } else if (lebronX < lineOneThirty.xTwo
+        && lebronX+20 > lineOneThirty.xOne 
         && lebronY < lineOneThirty.yTwo
         && lebronY+26> lineOneThirty.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineOneThirtyOne.xTwo
-        && lebronX+16 > lineOneThirtyOne.xOne 
+    } else if (lebronX < lineOneThirtyOne.xTwo
+        && lebronX+20 > lineOneThirtyOne.xOne 
         && lebronY < lineOneThirtyOne.yTwo
         && lebronY+26> lineOneThirtyOne.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineOneThirtyTwo.xTwo
-        && lebronX+16 > lineOneThirtyTwo.xOne 
+    } else if (lebronX < lineOneThirtyTwo.xTwo
+        && lebronX+20 > lineOneThirtyTwo.xOne 
         && lebronY < lineOneThirtyTwo.yTwo
         && lebronY+26> lineOneThirtyTwo.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineOneThirtyThree.xTwo
-        && lebronX+16 > lineOneThirtyThree.xOne 
+    } else if (lebronX < lineOneThirtyThree.xTwo
+        && lebronX+20 > lineOneThirtyThree.xOne 
         && lebronY < lineOneThirtyThree.yTwo
         && lebronY+26> lineOneThirtyThree.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineOneThirtyFour.xTwo
-        && lebronX+16 > lineOneThirtyFour.xOne 
+    } else if (lebronX < lineOneThirtyFour.xTwo
+        && lebronX+20 > lineOneThirtyFour.xOne 
         && lebronY < lineOneThirtyFour.yTwo
         && lebronY+26> lineOneThirtyFour.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineOneThirtyFive.xTwo
-        && lebronX+16 > lineOneThirtyFive.xOne 
+    } else if (lebronX < lineOneThirtyFive.xTwo
+        && lebronX+20 > lineOneThirtyFive.xOne 
         && lebronY < lineOneThirtyFive.yTwo
         && lebronY+26> lineOneThirtyFive.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineOneThirtySix.xTwo
-        && lebronX+16 > lineOneThirtySix.xOne 
+    } else if (lebronX < lineOneThirtySix.xTwo
+        && lebronX+20 > lineOneThirtySix.xOne 
         && lebronY < lineOneThirtySix.yTwo
         && lebronY+26> lineOneThirtySix.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineOneThirtySeven.xTwo
-        && lebronX+16 > lineOneThirtySeven.xOne 
+    } else if (lebronX < lineOneThirtySeven.xTwo
+        && lebronX+20 > lineOneThirtySeven.xOne 
         && lebronY < lineOneThirtySeven.yTwo
         && lebronY+26> lineOneThirtySeven.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineOneThirtyEight.xTwo
-        && lebronX+16 > lineOneThirtyEight.xOne 
+    } else if (lebronX < lineOneThirtyEight.xTwo
+        && lebronX+20 > lineOneThirtyEight.xOne 
         && lebronY < lineOneThirtyEight.yTwo
         && lebronY+26> lineOneThirtyEight.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineOneThirtyNine.xTwo
-        && lebronX+16 > lineOneThirtyNine.xOne 
+    } else if (lebronX < lineOneThirtyNine.xTwo
+        && lebronX+20 > lineOneThirtyNine.xOne 
         && lebronY < lineOneThirtyNine.yTwo
         && lebronY+26> lineOneThirtyNine.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineOneForty.xTwo
-        && lebronX+16 > lineOneForty.xOne 
+    } else if (lebronX < lineOneForty.xTwo
+        && lebronX+20 > lineOneForty.xOne 
         && lebronY < lineOneForty.yTwo
         && lebronY+26> lineOneForty.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineOneFortyOne.xTwo
-        && lebronX+16 > lineOneFortyOne.xOne 
+    } else if (lebronX < lineOneFortyOne.xTwo
+        && lebronX+20 > lineOneFortyOne.xOne 
         && lebronY < lineOneFortyOne.yTwo
         && lebronY+26> lineOneFortyOne.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineOneFortyTwo.xTwo
-        && lebronX+16 > lineOneFortyTwo.xOne 
+    } else if (lebronX < lineOneFortyTwo.xTwo
+        && lebronX+20 > lineOneFortyTwo.xOne 
         && lebronY < lineOneFortyTwo.yTwo
         && lebronY+26> lineOneFortyTwo.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineOneFortyThree.xTwo
-        && lebronX+16 > lineOneFortyThree.xOne 
+    } else if (lebronX < lineOneFortyThree.xTwo
+        && lebronX+20 > lineOneFortyThree.xOne 
         && lebronY < lineOneFortyThree.yTwo
         && lebronY+26> lineOneFortyThree.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineOneFortyFour.xTwo
-        && lebronX+16 > lineOneFortyFour.xOne 
+    } else if (lebronX < lineOneFortyFour.xTwo
+        && lebronX+20 > lineOneFortyFour.xOne 
         && lebronY < lineOneFortyFour.yTwo
         && lebronY+26> lineOneFortyFour.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineOneFortyFive.xTwo
-        && lebronX+16 > lineOneFortyFive.xOne 
+    } else if (lebronX < lineOneFortyFive.xTwo
+        && lebronX+20 > lineOneFortyFive.xOne 
         && lebronY < lineOneFortyFive.yTwo
         && lebronY+26> lineOneFortyFive.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineOneFortySix.xTwo
-        && lebronX+16 > lineOneFortySix.xOne 
+    } else if (lebronX < lineOneFortySix.xTwo
+        && lebronX+20 > lineOneFortySix.xOne 
         && lebronY < lineOneFortySix.yTwo
         && lebronY+26> lineOneFortySix.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineOneFortySeven.xTwo
-        && lebronX+16 > lineOneFortySeven.xOne 
+    } else if (lebronX < lineOneFortySeven.xTwo
+        && lebronX+20 > lineOneFortySeven.xOne 
         && lebronY < lineOneFortySeven.yTwo
         && lebronY+26> lineOneFortySeven.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineOneFortyEight.xTwo
-        && lebronX+16 > lineOneFortyEight.xOne 
+    } else if (lebronX < lineOneFortyEight.xTwo
+        && lebronX+20 > lineOneFortyEight.xOne 
         && lebronY < lineOneFortyEight.yTwo
         && lebronY+26> lineOneFortyEight.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineOneFortyNine.xTwo
-        && lebronX+16 > lineOneFortyNine.xOne 
+    } else if (lebronX < lineOneFortyNine.xTwo
+        && lebronX+20 > lineOneFortyNine.xOne 
         && lebronY < lineOneFortyNine.yTwo
         && lebronY+26> lineOneFortyNine.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineOneFifty.xTwo
-        && lebronX+16 > lineOneFifty.xOne 
+    } else if (lebronX < lineOneFifty.xTwo
+        && lebronX+20 > lineOneFifty.xOne 
         && lebronY < lineOneFifty.yTwo
         && lebronY+26> lineOneFifty.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineOneFiftyOne.xTwo
-        && lebronX+16 > lineOneFiftyOne.xOne 
+    } else if (lebronX < lineOneFiftyOne.xTwo
+        && lebronX+20 > lineOneFiftyOne.xOne 
         && lebronY < lineOneFiftyOne.yTwo
         && lebronY+26> lineOneFiftyOne.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineOneFiftyTwo.xTwo
-        && lebronX+16 > lineOneFiftyTwo.xOne 
+    } else if (lebronX < lineOneFiftyTwo.xTwo
+        && lebronX+20 > lineOneFiftyTwo.xOne 
         && lebronY < lineOneFiftyTwo.yTwo
         && lebronY+26> lineOneFiftyTwo.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineOneFiftyThree.xTwo
-        && lebronX+16 > lineOneFiftyThree.xOne 
+    } else if (lebronX < lineOneFiftyThree.xTwo
+        && lebronX+20 > lineOneFiftyThree.xOne 
         && lebronY < lineOneFiftyThree.yTwo
         && lebronY+26> lineOneFiftyThree.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineOneFiftyFour.xTwo
-        && lebronX+16 > lineOneFiftyFour.xOne 
+    } else if (lebronX < lineOneFiftyFour.xTwo
+        && lebronX+20 > lineOneFiftyFour.xOne 
         && lebronY < lineOneFiftyFour.yTwo
         && lebronY+26> lineOneFiftyFour.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineOneFiftyFive.xTwo
-        && lebronX+16 > lineOneFiftyFive.xOne 
+    } else if (lebronX < lineOneFiftyFive.xTwo
+        && lebronX+20 > lineOneFiftyFive.xOne 
         && lebronY < lineOneFiftyFive.yTwo
         && lebronY+26> lineOneFiftyFive.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineOneFiftySix.xTwo
-        && lebronX+16 > lineOneFiftySix.xOne 
+    } else if (lebronX < lineOneFiftySix.xTwo
+        && lebronX+20 > lineOneFiftySix.xOne 
         && lebronY < lineOneFiftySix.yTwo
         && lebronY+26> lineOneFiftySix.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineOneFiftySeven.xTwo
-        && lebronX+16 > lineOneFiftySeven.xOne 
+    } else if (lebronX < lineOneFiftySeven.xTwo
+        && lebronX+20 > lineOneFiftySeven.xOne 
         && lebronY < lineOneFiftySeven.yTwo
         && lebronY+26> lineOneFiftySeven.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < lineOneFiftyEight.xTwo
-        && lebronX+16 > lineOneFiftyEight.xOne 
+    } else if (lebronX < lineOneFiftyEight.xTwo
+        && lebronX+20 > lineOneFiftyEight.xOne 
         && lebronY < lineOneFiftyEight.yTwo
         && lebronY+26> lineOneFiftyEight.yOne) {
         gameStatus = false
-    } else if (lebronX+10 < 352
-        && lebronX+16 > 332
+    } else if (lebronX < 352
+        && lebronX+20 > 332
         && lebronY < 142
         && lebronY+26 > 122) {
         diamondOneAlive = false
-    } else if (lebronX+10 < 502
-        && lebronX+16 > 482
+    } else if (lebronX < 502
+        && lebronX+20 > 482
         && lebronY < 52
         && lebronY+26 > 32) {
         diamondTwoAlive = false
-    } else if (lebronX+10 < 382
-        && lebronX+16 > 362
+    } else if (lebronX < 382
+        && lebronX+20 > 362
         && lebronY < 322
         && lebronY+26 > 302) {
         diamondThreeAlive = false
-    } else if (lebronX+10 < 622
-        && lebronX+16 > 602
+    } else if (lebronX < 622
+        && lebronX+20 > 602
         && lebronY < 352
         && lebronY+26 > 332) {
         diamondFourAlive = false
-    } else if (lebronX+10 < 772
-        && lebronX+16 > 752
+    } else if (lebronX < 772
+        && lebronX+20 > 752
         && lebronY < 142
         && lebronY+26 > 122) {
         diamondFiveAlive = false
-    } else if (lebronX+10 < 22
-        && lebronX+16 > 2
+    } else if (lebronX < 22
+        && lebronX+20 > 2
         && lebronY < 172
         && lebronY+26 > 152) {
-        diamondOneAlive = false;
+        // diamondOneAlive = false;
         
     } 
 } 
