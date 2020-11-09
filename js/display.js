@@ -22,13 +22,7 @@ class Maze {
         this.xTwo = xTwo
         this.yTwo = yTwo
     }
-    render() {
-        ctx.moveTo(this.xOne, this.yOne);
-        ctx.lineTo(this.xTwo, this.yTwo);
-        ctx.lineWidth = 2;
-        ctx.strokeStyle = 'blue';
-        ctx.stroke();
-    }
+   
 }
 
 const lineOne = new Maze (0, 90, 30, 90);
