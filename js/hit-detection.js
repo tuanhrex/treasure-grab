@@ -814,12 +814,18 @@ function detectHit() {
         && lebronY < 142
         && lebronY+26 > 122) {
         diamondFiveAlive = false
-    } else if (lebronX < 22
-        && lebronX+20 > 2
-        && lebronY < 172
-        && lebronY+26 > 152) {
-        // diamondOneAlive = false;
+    } else if (lebronX < 0) {
+        gameStatus = false
+    } else if (lebronX > 810) {
+        gameStatus = false
+    } else if (lebronY < 0) {
+        gameStatus = false
+    } else if (lebronY+26 > 360) {
+        gameStatus = false
+    }
         
-    } 
+        
+    
+    
 } 
 
