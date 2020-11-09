@@ -1,19 +1,20 @@
 function rePaint() {
-    // clear the entire canvas
+    
     ctx.clearRect(0, 0, game.width, game.height);
 
-    if (gameStatus === false || time === 0) {
-        clearInterval(timeRemaining);
+    if (gameStatus === false || time === -1) {
+      
+        turnOff();
         clearInterval(rePaint);
         status.textContent = `Click to start again`
         
-    } else if (gameStatus === true && time > 0) {
+    } else if (gameStatus === true && time > -1) {
         
         ctx.drawImage(mazeImage, 0, 0, game.width, game.height)
         ctx.drawImage(lebron, lebronX, lebronY, 20, 26);
         if (diamondOneAlive === true) {
             ctx.drawImage(diamondOne, 332, 122, 20, 20);
-            // ctx.drawImage(diamondOne, 2, 152, 20, 20);
+           
 
         } 
         if (diamondTwoAlive === true) {
@@ -33,7 +34,39 @@ function rePaint() {
 
         }
 
-        
+        diamondCount();
         detectHit()
+    }
+}
+
+let time = 300;
+
+
+var timer;
+var turnOn = function() {
+    timer = setInterval(function() {
+        const timeRemaining = document.getElementById('timer');
+        timeRemaining.textContent = `Time Remaining: ${time}`;
+        time -= 1;
+    }, 1000)
+}
+var turnOff = function() {
+    clearInterval(timer);
+}
+
+
+function diamondCount() {
+    if (diamondOneAlive === false && diamondTwoAlive === false && diamondThreeAlive === false && diamondFourAlive === false && diamondFiveAlive === false) {
+        status.textContent = "Got them all, click to start again!";
+        gameStatus = false;
+
+    } else if ((diamondOneAlive === false && diamondTwoAlive === false && diamondThreeAlive === false && diamondFourAlive === false) || (diamondOneAlive === false && diamondTwoAlive === false && diamondThreeAlive === false && diamondFiveAlive === false) || (diamondOneAlive === false && diamondTwoAlive === false && diamondFourAlive === false && diamondFiveAlive === false) || (diamondOneAlive === false && diamondThreeAlive === false && diamondFourAlive === false && diamondFiveAlive === false) || (diamondTwoAlive === false && diamondThreeAlive === false && diamondFourAlive === false && diamondFiveAlive === false)) {
+        status.textContent = "4 diamonds obtained"
+    } else if ((diamondOneAlive === false && diamondTwoAlive === false && diamondThreeAlive === false) || (diamondOneAlive === false && diamondTwoAlive === false && diamondFourAlive === false) || (diamondOneAlive === false && diamondTwoAlive === false && diamondFiveAlive === false) || (diamondOneAlive === false && diamondThreeAlive === false && diamondFourAlive === false) || (diamondOneAlive === false && diamondThreeAlive === false && diamondFiveAlive === false) || (diamondOneAlive === false && diamondFourAlive === false && diamondFiveAlive === false) || (diamondTwoAlive === false && diamondThreeAlive === false && diamondFourAlive === false) || (diamondTwoAlive === false && diamondThreeAlive === false && diamondFiveAlive === false) || (diamondTwoAlive === false && diamondFourAlive === false && diamondFiveAlive === false) || (diamondThreeAlive === false && diamondFourAlive === false && diamondFiveAlive === false)) {
+        status.textContent = "3 diamonds obtained"
+    } else if ((diamondOneAlive === false && diamondTwoAlive === false) || (diamondOneAlive === false && diamondThreeAlive === false) || (diamondOneAlive === false && diamondFourAlive === false) || (diamondOneAlive === false && diamondFiveAlive === false) || (diamondTwoAlive === false && diamondThreeAlive === false) || (diamondTwoAlive === false && diamondFourAlive === false) || (diamondTwoAlive === false && diamondFiveAlive === false) || (diamondThreeAlive === false && diamondFourAlive === false) || (diamondThreeAlive === false && diamondFiveAlive === false) || (diamondFourAlive === false && diamondFiveAlive === false)) {
+        status.textContent = "2 diamonds obtained"
+    } else if (diamondOneAlive === false || diamondTwoAlive === false || diamondThreeAlive === false || diamondFourAlive === false || diamondFiveAlive === false) {
+        status.textContent = "1 diamond obtained"
     }
 }
