@@ -822,7 +822,7 @@ function detectHit() {
         gameStatus = false
     } else if (lebronY+26 > 360) {
         gameStatus = false
-    }
+    } 
         
         
     

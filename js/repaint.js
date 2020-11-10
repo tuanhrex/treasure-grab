@@ -1,12 +1,19 @@
 function rePaint() {
     
     ctx.clearRect(0, 0, game.width, game.height);
-
-    if (gameStatus === false || time === -1) {
+    if (gameStatus === false && diamondFiveAlive === false && diamondFourAlive === false && diamondThreeAlive === false && diamondTwoAlive === false && diamondOneAlive === false) {
       
         turnOff();
         clearInterval(rePaint);
-        status.textContent = `Click to start again`
+        status.textContent = `You Win! Click to start again`
+        
+    } 
+
+    else if (gameStatus === false || time === -1) {
+      
+        turnOff();
+        clearInterval(rePaint);
+        status.textContent = `Game Over! Click to start again`
         
     } else if (gameStatus === true && time > -1) {
         
@@ -14,7 +21,7 @@ function rePaint() {
         ctx.drawImage(lebron, lebronX, lebronY, 20, 26);
         if (diamondOneAlive === true) {
             ctx.drawImage(diamondOne, 332, 122, 20, 20);
-           
+            
 
         } 
         if (diamondTwoAlive === true) {
@@ -57,7 +64,7 @@ var turnOff = function() {
 
 function diamondCount() {
     if (diamondOneAlive === false && diamondTwoAlive === false && diamondThreeAlive === false && diamondFourAlive === false && diamondFiveAlive === false) {
-        status.textContent = "Got them all, click to start again!";
+        // status.textContent = "Got them all, click to start again!";
         gameStatus = false;
 
     } else if ((diamondOneAlive === false && diamondTwoAlive === false && diamondThreeAlive === false && diamondFourAlive === false) || (diamondOneAlive === false && diamondTwoAlive === false && diamondThreeAlive === false && diamondFiveAlive === false) || (diamondOneAlive === false && diamondTwoAlive === false && diamondFourAlive === false && diamondFiveAlive === false) || (diamondOneAlive === false && diamondThreeAlive === false && diamondFourAlive === false && diamondFiveAlive === false) || (diamondTwoAlive === false && diamondThreeAlive === false && diamondFourAlive === false && diamondFiveAlive === false)) {
